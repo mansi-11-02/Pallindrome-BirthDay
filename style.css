@@ -1,0 +1,47 @@
+:root{
+    --pColor:#7c3aed;
+    --sColor:#f5d0fe;
+}
+
+body{
+    background-color: var(--pColor);
+  
+}
+h1{
+    
+    display: block;
+
+    margin: 2rem 35rem;
+}
+
+.input{
+    display: block;
+    margin: 10rem auto;
+}
+#bday-input{
+    display: block;
+    margin:1rem auto;
+    width: 20rem;
+    height: 1.5rem;
+}
+#submit{
+    display: block  ;
+    margin:1rem auto;
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    background-color: #f5d0fe;
+    color: #7c3aed;
+
+}
+#outbox{
+
+    display: block;
+    color: wheat;
+    font-size:  larger;
+    font-weight: bolder;
+    font-style: italic;
+    flex-direction: column;
+   
+}
+
